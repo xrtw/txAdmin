@@ -1,0 +1,26 @@
+{
+    "$meta": {
+        "label": "Lietuvių",
+        "humanizer_language": "lt"
+    },
+    "restarter": {
+        "crash_detected": "aptiktas 'crash'.",
+        "partial_crash_warn": "Dėl galimo 'crash', serveris bus paleistas iš naujo po 1 min. Prašome atsijungti.",
+        "partial_crash_warn_discord": "Dėl galimo 'crash', **%{servername}** serveris perkraunamas po 1 min.",
+        "schedule_reason": "suplanuotas serverio perkrovimas už %{time}",
+        "schedule_warn": "Serverio perkrovimas vyks po %{smart_count} min. Prašome atsijungti. |||| Serverio perkrovimas vyks po %{smart_count} min.",
+        "schedule_warn_discord": "**%{servername}** serverio perkrovimas vyks po %{smart_count} min. |||| **%{servername}** serverio perkrovimas vyks po %{smart_count} min."
+    },
+    "server_actions": {
+        "restarting": "Pekraunamas serveris (%{reason}).",
+        "restarting_discord": "**%{servername}** perkraunamas dėl (%{reason}).",
+        "stopping": "Serveris išjungiamas (%{reason}).",
+        "stopping_discord": "**%{servername}** buvo išjungtas dėl (%{reason}).",
+        "spawning_discord": "**%{servername}** veikia."
+    },
+    "discord": {
+        "status_online": "**%{servername}** šiuo metu yra **ĮJUNGTAS**!",
+        "status_offline": "**%{servername}** šiuo metu yra **IŠJUNGTAS**!"
+    }
+}
+
